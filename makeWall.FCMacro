@@ -1,0 +1,13 @@
+import OSEfeatures as ose
+from importlib import reload
+reload(ose)
+
+stud_01 = ose.makeLumber()
+stud_02 = ose.makeLumber()
+stud_03 = ose.makeLumber()
+stud_04 = ose.makeLumber()
+
+stud_01.Placement = App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,1,0),270), App.Vector(0,0,0))
+stud_02.Placement = App.Placement(App.Vector(100,0,0), App.Rotation(App.Vector(0,1,0),270), App.Vector(0,0,0))
+stud_03.Placement = App.Placement(App.Vector(200,0,0), App.Rotation(App.Vector(0,1,0),270), App.Vector(0,0,0))
+stud_04.Placement = App.Placement(App.Vector(300,0,0), App.Rotation(App.Vector(0,1,0),270), App.Vector(0,0,0))
